@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>☕ Coffee Order Form</h1>
+
+<p>Place your coffee order below!</p>
+
+
+
+<form action="https://www.w3schools.com/action_page.php" method="get">
+
+
+
+    <!-- Customer Name -->
+
+    <label for="customer-name">Your Name:</label><br>
+
+    <input type="text" id="customer-name" name="customer_name" required><br><br>
+
+
+
+    <!-- Email Address -->
+
+    <label for="email">Email Address:</label><br>
+
+    <input type="email" id="email" name="email" required><br><br>
+
+
+
+    <!-- Coffee Type (Dropdown) -->
+
+    <label for="coffee-type">Coffee Type:</label><br>
+
+    <select id="coffee-type" name="coffee_type">
+
+        <option value="latte">Latte</option>
+
+        <option value="cappuccino">Cappuccino</option>
+
+        <option value="americano">Americano</option>
+
+        <option value="espresso">Espresso</option>
+       
+        <option value="flat-white">Flat White</option>
+        
+        <option value="double-espresso">Double Espresso</option>
+
+    </select><br><br>
+
+
+
+    <!-- Size (Radio Buttons) -->
+
+    <fieldset>
+
+        <legend>Size:</legend>
+
+        <input type="radio" id="small" name="size" value="small">
+
+        <label for="small">Small</label><br>
+
+        <input type="radio" id="medium" name="size" value="medium" checked>
+
+        <label for="medium">Medium</label><br>
+
+        <input type="radio" id="large" name="size" value="large">
+
+        <label for="large">Large</label>
+
+    </fieldset><br>
+
+
+
+    <!-- Extras (Checkboxes) -->
+
+    <fieldset>
+
+        <legend>Extras:</legend>
+
+        <input type="checkbox" id="whipped" name="extras" value="whipped_cream">
+
+        <label for="whipped">Whipped Cream</label><br>
+
+        <input type="checkbox" id="extra-shot" name="extras" value="extra_shot">
+
+        <label for="extra-shot">Extra Shot</label><br>
+
+        <input type="checkbox" id="caramel" name="extras" value="caramel_syrup">
+        <label for="almond">Almond Milk</label>
+
+    </fieldset><br>
+
+
+
+    <!-- Special Instructions -->
+
+    <label for="instructions">Special Instructions:</label><br>
+
+    <textarea id="instructions" name="instructions" rows="4" cols="40"
+
+              placeholder="Any special requests?"></textarea><br><br>
+
+
+
+    <!-- Submit Button -->
+
+    <button type="submit">Place Order</button>
+
+
+
+</form>
+
+</body>
+</html>
