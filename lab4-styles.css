@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+p {
+    color:blue;
+    padding: 0% 20px;
+}
+li {
+    color: green;
+    
+}
+a {
+    color: #1a07c2;
+}
+a :hover {
+   text-decoration: none;
+}
+.styled-box {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 15px;
+}
