@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 - CSS Box Model</title>
+    <style>
+        /* Universal box-sizing reset (best practice) */
+        * {
+            box-sizing: border-box;
+        }
+        
+        /* Base box styling */
+        .box {
+            border: 5px solid blue;
+            padding: 20px;
+            margin: 20px;
+            background-color: lightgray;
+        }
+        
+        /* Experiment with fixed width */
+        .experiment {
+            width: 300px;
+            border-color: green;  /* Different color to distinguish */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Box Model Lab</h1>
+   
+    <div class="box">
+        <p>This is Box 1. It demonstrates the CSS Box Model.</p>
+    </div>
+   
+    <div class="box">
+        <p>This is Box 2. Notice the margin between boxes.</p>
+    </div>
+   
+    <div class="box experiment">
+        <p>This is Box 3. It has additional experimental styles.</p>
+    </div>
+</body>
+</html>
